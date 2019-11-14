@@ -14,7 +14,7 @@
 		93179383237B9DC3000822BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93179381237B9DC3000822BE /* Main.storyboard */; };
 		93179385237B9DC4000822BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93179384237B9DC4000822BE /* Assets.xcassets */; };
 		93179388237B9DC4000822BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93179386237B9DC4000822BE /* LaunchScreen.storyboard */; };
-		93179390237BA06A000822BE /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 9317938F237BA06A000822BE /* movies.json */; };
+		93179390237BA06A000822BE /* nba.json in Resources */ = {isa = PBXBuildFile; fileRef = 9317938F237BA06A000822BE /* nba.json */; };
 		93179392237BA07E000822BE /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93179391237BA07E000822BE /* Movies.swift */; };
 		93BF687F237E1D7400DB24E9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 93BF687E237E1D7400DB24E9 /* .gitignore */; };
 /* End PBXBuildFile section */
@@ -29,7 +29,7 @@
 		93179384237B9DC4000822BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93179387237B9DC4000822BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93179389237B9DC4000822BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9317938F237BA06A000822BE /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
+		9317938F237BA06A000822BE /* nba.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nba.json; sourceTree = "<group>"; };
 		93179391237BA07E000822BE /* Movies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		93BF687E237E1D7400DB24E9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				93179391237BA07E000822BE /* Movies.swift */,
-				9317938F237BA06A000822BE /* movies.json */,
+				9317938F237BA06A000822BE /* nba.json */,
 				93179379237B9DC3000822BE /* AppDelegate.swift */,
 				9317937B237B9DC3000822BE /* SceneDelegate.swift */,
 				9317937D237B9DC3000822BE /* MasterViewController.swift */,
@@ -140,7 +140,7 @@
 				93BF687F237E1D7400DB24E9 /* .gitignore in Resources */,
 				93179388237B9DC4000822BE /* LaunchScreen.storyboard in Resources */,
 				93179385237B9DC4000822BE /* Assets.xcassets in Resources */,
-				93179390237BA06A000822BE /* movies.json in Resources */,
+				93179390237BA06A000822BE /* nba.json in Resources */,
 				93179383237B9DC3000822BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

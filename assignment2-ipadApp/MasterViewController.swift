@@ -25,7 +25,7 @@ class MasterViewController: UITableViewController {
             let controllers = split.viewControllers
             detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
         }
-        if let file=Bundle(for: AppDelegate.self).path(forResource: "movies", ofType: "json"),
+        if let file=Bundle(for: AppDelegate.self).path(forResource: "nba", ofType: "json"),
         let data=NSData(contentsOfFile: file) as Data?,
             let movies=try? newJSONDecoder().decode(Movies.self, from:data){
             self.objects=movies.movies
